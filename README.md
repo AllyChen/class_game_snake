@@ -30,5 +30,5 @@
 
 此專案已設定 GitHub Actions 自動部署到 GitHub Pages。當 `main` 分支有更新時，工作流程會自動建置並發佈 `dist` 內容到 `gh-pages` 分支。
 
-部署後的頁面網址：
+### 部署後的頁面網址：
 `https://AllyChen.github.io/class_game_snake/`
