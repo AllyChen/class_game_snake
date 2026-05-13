@@ -2,19 +2,33 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# 經典復古貪吃蛇
 
-This contains everything you need to run your app locally.
+這是一個使用 React + Vite + Tailwind CSS 建立的簡潔貪吃蛇遊戲。
 
-View your app in AI Studio: https://ai.studio/apps/610ee724-9b8a-433c-a58e-d3aba1db8d00
+## 特色
 
-## Run Locally
+- 經典貪吃蛇遊戲玩法
+- 即時 Canvas 畫面渲染
+- 鍵盤控制
+- 分數與最佳成績記錄
 
-**Prerequisites:**  Node.js
+## 本地執行
 
+**先決條件：** Node.js
 
-1. Install dependencies:
+1. 安裝相依套件：
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. 執行開發伺服器：
    `npm run dev`
+3. 預覽產生結果：
+   `npm run preview`
+4. 建置專案：
+   `npm run build`
+
+## GitHub Pages 部署
+
+此專案已設定 GitHub Actions 自動部署到 GitHub Pages。當 `main` 分支有更新時，工作流程會自動建置並發佈 `dist` 內容到 `gh-pages` 分支。
+
+部署後的頁面網址：
+`https://AllyChen.github.io/class_game_snake/`
